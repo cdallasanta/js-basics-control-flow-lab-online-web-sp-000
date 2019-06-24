@@ -4,7 +4,7 @@ scuberGreetingForFeet(distance) {
 }
 
 ternaryCheckCity(destination) {
-
+  return destination === 'NYC' ? ""
 }
 
 switchOnCharmFromTip() {
