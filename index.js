@@ -13,6 +13,17 @@ ternaryCheckCity(destination) {
   return destination === 'NYC' ? "Okay, sounds good." : "No go.";
 }
 
-switchOnCharmFromTip() {
+switchOnCharmFromTip(tip) {
+  let response;
+  switch(tip) {
+    case "generous":
+      response = "Thank you so much."
+      break;
+    case "not as generous":
+      response = "Thank you.";
+    default:
+      response = "Bye.";
+  }
 
+  return response;
 }
